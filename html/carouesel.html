@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <link rel="stylesheet" href="../css/carousel.css">
+</head>
+
+<body>
+    <main class="carousel-container">
+        <div class="carousel relative aspect-video ">
+            <div class="item active  w-full h-full none ease-in-out">
+                <img class="w-full h-full object-cover object-center" src="../skincare/HomepageC3.jpeg" alt="Image 1" />
+                <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+            </div>
+            <div class="item   w-full h-full none ease-in-out">
+                <img class="w-full h-full object-cover "
+                    src="https://www.cmn.co.kr/webupload/ckeditor/images/20210903_004602_0566570.jpg" alt="Image 2" />
+                <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+            </div>
+            <div class="item  w-full h-full  ease-in-out">
+                <img class="w-full h-full object-cover "
+                    src="https://cdn1.productnation.co/stg/sites/6/6493ecdfdad98.jpg" alt="Image 3" />
+                <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+            </div>
+            <div class="item w-full h-full ease-in-out">
+                <img class="object-cover object-center " src="https://pbs.twimg.com/media/E-L9T3xUUAAwkec.jpg"
+                    alt="Image 4" />
+                <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+            </div>
+            <!--<div class="item active  w-full h-full none ease-in-out">
+        <img class="w-full h-full object-cover object-center " src="https://bit.ly/34xczKy" alt="Image 2" />
+        <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+      </div>
+      <div class="item active  w-full h-full none ease-in-out">
+        <img class="w-full h-full object-cover " src="https://bit.ly/34xczKy" alt="Image 3" />
+        <p class="caption w-full absolute bottom-0 uppercase items-center text-2xl">Caption for Image 1</p>
+      </div> -->
+            <!-- <div class="item ">
+        <img src="https://i.ytimg.com/vi/M80wBHIxMxE/maxresdefault.jpg" alt="Image 1" />
+        <p class="caption">Caption for Image 2</p>
+      </div>
+      <div class="item">
+        <img src="https://file.cafe24cos.com/banner-admin-live/upload/needlyshop/998b0a77-1cb7-49a8-93bd-e233b24b263a.jpeg" alt="Image 3" />
+        <p class="caption">Caption for Image 3</p>
+      </div>  -->
+        </div>
+        <button
+            class="btn prev py-6 px-8  absolute -translate-y-1/2 top-1/2 uppercase bg-white focus:-translate-y-1/2 scale-90 hover:-translate-y-1/2 hover:scale-96  ">Prev</button>
+        <button
+            class="btn next py-6 px-8  absolute -translate-y-1/2 top-1/2 uppercase bg-white focus:-translate-y-1/2 scale-90 hover:-translate-y-1/2 hover:scale-96 right-0 ">Next</button>
+        <!-- <div class="dots cursor-pointer h-[10px] w-[10px] absolute -translate-y-1/2 top-1/2 left-1/2"> -->
+
+        </div>
+    </main>
+    <script src="js.js"></script>
+</body>
+
+</html>
